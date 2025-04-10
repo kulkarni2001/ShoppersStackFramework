@@ -16,7 +16,7 @@ public class TC_001_Vefify_Address_is_Added_Or_Not_Test extends Base_Test {
 	@Test
 	public void addAddress() throws InterruptedException, EncryptedDocumentException, IOException
 	{
-		System.out.println("Add a Address");
+		System.out.println("Add a Address ");
 		homePage.getAcoountSettingBtn().click();
 		homePage.getMyProfileBtn().click();
 		
